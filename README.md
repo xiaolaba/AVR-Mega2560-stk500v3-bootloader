@@ -13,8 +13,15 @@ https://www.microchip.com/en-us/development-tools-tools-and-software/gcc-compile
 ![better_code_size.JPG](better_code_size.JPG)  
 
 ### stk500v3, more baud rate support and Arduino IDE  
-copy the folder to following, under win10  
-C:\Program Files (x86)\Arduino\hardware\arduino\avr\bootloaders\stk500v3\  
+copy the folder (stk500v3) to following, under win10  
+C:\Program Files (x86)\Arduino\hardware\arduino\avr\bootloaders\stk500v3\
+something like this,
+![stk500v3_folder.JPG](stk500v3_folder.JPG)  
+
+the bootloader files,
+![stk500v3_files.JPG](stk500v3_files.JPG)  
+
+
 
 edit boards.txt
 C:\Program Files (x86)\Arduino\hardware\arduino\avr\boards.txt  
@@ -150,3 +157,9 @@ mega.menu.cpu.atmega2560_v3_1000000.build.board=AVR_MEGA2560
 
 
 ```
+
+
+
+### re-start Arduino IDE to make it visible
+job done, bootloader could be burn via ISP header
+![Arduino_IDE_view.JPG](Arduino_IDE_view.JPG)  
