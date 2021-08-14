@@ -23,10 +23,10 @@ the bootloader files,
 
 
 
-edit boards.txt
-C:\Program Files (x86)\Arduino\hardware\arduino\avr\boards.txt  
-find section "mega.name=Arduino Mega or Mega 2560"  
-replace the following, add different bootloader to support,  
+edit boards.txt  
+C:\Program Files (x86)\Arduino\hardware\arduino\avr\boards.txt    
+find section "mega.name=Arduino Mega or Mega 2560"    
+replace the following, add different bootloader to support,   
 ```
 ##############################################################
 
