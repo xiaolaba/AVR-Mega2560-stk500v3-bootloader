@@ -15,10 +15,10 @@ https://www.microchip.com/en-us/development-tools-tools-and-software/gcc-compile
 ### stk500v3, more baud rate support and Arduino IDE  
 copy the folder (stk500v3) to following, under win10  
 C:\Program Files (x86)\Arduino\hardware\arduino\avr\bootloaders\stk500v3\
-something like this,
+something like this,  
 ![stk500v3_folder.JPG](stk500v3_folder.JPG)  
 
-the bootloader files,
+the bootloader files,  
 ![stk500v3_files.JPG](stk500v3_files.JPG)  
 
 
