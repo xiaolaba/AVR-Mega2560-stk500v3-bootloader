@@ -3,5 +3,8 @@ this is rebuild only for the bootloader for mega2560, smaller (perhaps faster) t
 
 the story, https://github.com/xiaolaba/usbtiny-or-usbasp-mega2560-error-0x3e000
 
-this project and done
+this project and done  
+
+better_code_size  
+![better_code_size.JPG](better_code_size.JPG)  
 
